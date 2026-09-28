@@ -1,13 +1,25 @@
 PROJEKTBEZEICHNUNG:Autobus
 PROJEKTZWECK:Aufgabe
 VERSION oder DATUM: 1.V 28.09.2026
-WIE IST DAS PROJEKT ZU STARTEN: 
 AUTOR(EN): Rumen Yordanov
 
-Git 
++-----------------------------------+
+|              Autobus              |
++-----------------------------------+
+| - kennzeichen: String = "W-1234A" |
+| - sitzplatze: int = 29            |
+| - anhanger: boolean = false       |
++-----------------------------------+
+| + Autobus(...)                    |
+| + Autobus()                       |
+| + get/set                         |
++-----------------------------------+
 
+
+GIT
 *) public class
 *) Eigenschaften
 *) get
 *) set
-*) Konstruktoren - insgesammt 4 Konstruktoren.  
+*) Konstruktoren
+ 
