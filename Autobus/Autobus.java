@@ -32,6 +32,10 @@ public class Autobus
         if (neuSitzplatze > 7){
             setSitzplatze(neuSitzplatze);
             System.out.println("Das ist ein Bus");
+        } else if (neuSitzplatze < 7)
+        {
+          setSitzplatze(neuSitzplatze);
+          System.out.println("Das ist ein Auto");
         }
     }
     

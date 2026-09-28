@@ -1,5 +1,5 @@
 #BlueJ class context
-#Mon Sep 28 17:45:31 CEST 2026
+#Mon Sep 28 17:52:57 CEST 2026
 comment0.target=Autobus
 comment1.params=neuKennzeichen neuSitzplatze neuAnhanger
 comment1.target=Autobus(java.lang.String, int, boolean)
