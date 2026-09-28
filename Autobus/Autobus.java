@@ -4,13 +4,16 @@ public class Autobus
     private int sitzplatze;
     private boolean anhanger;
 
-    public Autobus()
+    public String getKennzeichen()
     {
-        x = 0;
+        return kennzeichen;
     }
-
-    public int beispielMethode(int y)
+    public int getSitzplatze()
     {
-        return x + y;
+        return sitzplatze;
+    }
+    public boolean getAnhanger()
+    {
+        return anhanger;
     }
 }

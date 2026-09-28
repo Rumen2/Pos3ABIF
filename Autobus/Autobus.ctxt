@@ -1,7 +1,7 @@
 #BlueJ class context
-#Mon Sep 28 17:27:47 CEST 2026
+#Mon Sep 28 17:33:15 CEST 2026
 comment0.target=Autobus
-comment1.target=Autobus()
-comment2.params=y
-comment2.target=int beispielMethode(int)
-numComments=3
+comment1.target=java.lang.String getKennzeichen()
+comment2.target=int getSitzplatze()
+comment3.target=boolean getAnhanger()
+numComments=4
