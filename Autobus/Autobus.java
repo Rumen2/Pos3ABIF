@@ -11,6 +11,30 @@ public class Autobus
         setAnhanger(neuAnhanger);
     }
     
+    public Autobus(String neuKennzeichen, int neuSitzplatze)
+    {
+        setKennzeichen(neuKennzeichen);
+        setSitzplatze(neuSitzplatze);
+        setAnhanger(true);
+    }
+    
+    public Autobus(int neuSitzplatze, boolean neuAnhanger)
+    {
+        setKennzeichen("W36672T");
+        setSitzplatze(neuSitzplatze);
+        setAnhanger(true);
+    }
+    
+    public Autobus(int neuSitzplatze)
+    {
+        setKennzeichen("W267RT");
+        setAnhanger(true);
+        if (neuSitzplatze > 7){
+            setSitzplatze(neuSitzplatze);
+            System.out.println("Das ist ein Bus");
+        }
+    }
+    
     public String getKennzeichen()
     {
         return kennzeichen;

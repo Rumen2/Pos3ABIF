@@ -1,15 +1,21 @@
 #BlueJ class context
-#Mon Sep 28 17:38:45 CEST 2026
+#Mon Sep 28 17:45:31 CEST 2026
 comment0.target=Autobus
 comment1.params=neuKennzeichen neuSitzplatze neuAnhanger
 comment1.target=Autobus(java.lang.String, int, boolean)
-comment2.target=java.lang.String getKennzeichen()
-comment3.target=int getSitzplatze()
-comment4.target=boolean getAnhanger()
-comment5.params=neuKennzeichen
-comment5.target=void setKennzeichen(java.lang.String)
-comment6.params=neuSitzplatze
-comment6.target=void setSitzplatze(int)
-comment7.params=neuAnhanger
-comment7.target=void setAnhanger(boolean)
-numComments=8
+comment10.params=neuAnhanger
+comment10.target=void setAnhanger(boolean)
+comment2.params=neuKennzeichen neuSitzplatze
+comment2.target=Autobus(java.lang.String, int)
+comment3.params=neuSitzplatze neuAnhanger
+comment3.target=Autobus(int, boolean)
+comment4.params=neuSitzplatze
+comment4.target=Autobus(int)
+comment5.target=java.lang.String getKennzeichen()
+comment6.target=int getSitzplatze()
+comment7.target=boolean getAnhanger()
+comment8.params=neuKennzeichen
+comment8.target=void setKennzeichen(java.lang.String)
+comment9.params=neuSitzplatze
+comment9.target=void setSitzplatze(int)
+numComments=11
