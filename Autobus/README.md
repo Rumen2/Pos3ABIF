@@ -5,6 +5,7 @@ WIE IST DAS PROJEKT ZU STARTEN:
 AUTOR(EN): Rumen Yordanov
 
 Git 
+
 *) public class
 *) Eigenschaften
 *) get
