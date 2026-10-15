@@ -6,8 +6,15 @@ public class Musikbox
 
     public Musikbox(String neuHersteller, int neuLautstaerke, boolean neuBluetooth)
     {
+        setHersteller(neuHersteller);
+        setLautstaerke(neuLautstaerke);
+        setBluetooth(neuBluetooth);
         
-        
+    }
+    
+    public void printMusikbox()
+    {
+        System.out.println(hersteller + " Musikbox: " + lautstaerke + " Lautstaerke - " + bluetooth);
     }
 
      public String getHersteller()
