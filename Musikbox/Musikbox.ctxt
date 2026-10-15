@@ -1,0 +1,15 @@
+#BlueJ class context
+#Thu Oct 15 17:58:59 CEST 2026
+comment0.target=Musikbox
+comment1.params=neuHersteller neuLautstaerke neuBluetooth
+comment1.target=Musikbox(java.lang.String, int, boolean)
+comment2.target=java.lang.String getHersteller()
+comment3.target=int getLautstaerker()
+comment4.target=boolean getBluetooth()
+comment5.params=neuHersteller
+comment5.target=void setHersteller(java.lang.String)
+comment6.params=neuLautstaerke
+comment6.target=void setLautstaerke(int)
+comment7.params=neuBluetooth
+comment7.target=void setBluetooth(boolean)
+numComments=8
